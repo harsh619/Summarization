@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <h2>
+            TEXTRANK SUMMARIZATION
+        </h2>
+        <form action="/submit" method="POST">
+            <label for="summarize">Input Text To Summarize:</label><br>
+            <textarea id="summarize" name="summarize" rows="8" cols="50"></textarea> <br><br>
+
+            <!-- <label for="ratio">Ratio (between 0.2 and 0.8):</label>
+            <input type="range" id="ratio" name="ratio" min="0.2" max="0.8"><br><br> -->
+            <label for="vol">Ratio (between 20 and 80):</label>
+            <input type="range" id="vol" name="vol" min="20" max="80" step="5">
+            
+            <!-- <input type="textarea" id="summarize" name="summarize" required=True placeholder="Input"><br> -->
+            <!-- <label for="datascience">Data Science:</label><br>
+            <input type="text" id="datascience" name="datascience" value="0"><br>
+            <label for="Science">Science:</label><br>
+            <input type="text" id="science" name="science" value="0"><br>
+            <label for="Maths">Maths:</label><br>
+            <input type="text" id="maths" name="maths" value="0"><br>
+            <label for="C ">C:</label><br>
+            <input type="text" id="c" name="c" value="0"><br> -->
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
